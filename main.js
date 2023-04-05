@@ -33,12 +33,23 @@ function dividi ()
     let num6 = parseFloat(num4) / parseFloat(num5);
     document.getElementById( "resultado2" ).innerHTML = num6;
 }
+
 document.getElementById( "bnt-multiplicar" ).addEventListener( "click" , multiplica );
 
 function multiplica ()
 {
     let num7 = document.getElementById( "num7" ).value;
     let num8 = document.getElementById( "num8" ).value;
-    let num9 = parseFloat(num7) / parseFloat(num8);
-    document.getElementById( "resultado2" ).innerHTML = num9;
+    let num9 = parseFloat(num7) * parseFloat(num8);
+    document.getElementById( "resultado3" ).innerHTML = num9;
+}
+
+document.getElementById( "bnt-subtrair" ).addEventListener( "click" , subtrai );
+
+function subtrai ()
+{
+    let num10 = document.getElementById( "num10" ).value;
+    let num11 = document.getElementById( "num11" ).value;
+    let num12 = parseFloat(num10) - parseFloat(num11);
+    document.getElementById( "resultado4" ).innerHTML = num12;
 }
