@@ -28,8 +28,17 @@ document.getElementById( "bnt-dividir" ).addEventListener( "click" , dividi );
 
 function dividi ()
 {
-    let num3 = document.getElementById( "num4" ).value;
-    let num4 = document.getElementById( "num5" ).value;
-    let num5 = parseFloat(num4) / parseFloat(num5);
+    let num4 = document.getElementById( "num4" ).value;
+    let num5 = document.getElementById( "num5" ).value;
+    let num6 = parseFloat(num4) / parseFloat(num5);
     document.getElementById( "resultado2" ).innerHTML = num6;
+}
+document.getElementById( "bnt-multiplicar" ).addEventListener( "click" , multiplica );
+
+function multiplica ()
+{
+    let num7 = document.getElementById( "num7" ).value;
+    let num8 = document.getElementById( "num8" ).value;
+    let num9 = parseFloat(num7) / parseFloat(num8);
+    document.getElementById( "resultado2" ).innerHTML = num9;
 }
