@@ -28,8 +28,8 @@ document.getElementById( "bnt-dividir" ).addEventListener( "click" , dividi );
 
 function dividi ()
 {
-    let num3 = document.getElementById( "num3" ).value;
-    let num4 = document.getElementById( "num4" ).value;
-    let num5 = parseFloat(num3) + parseFloat(num4);
-    document.getElementById( "resultado1" ).innerHTML = num5;
+    let num3 = document.getElementById( "num4" ).value;
+    let num4 = document.getElementById( "num5" ).value;
+    let num5 = parseFloat(num4) / parseFloat(num5);
+    document.getElementById( "resultado2" ).innerHTML = num6;
 }
