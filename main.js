@@ -23,3 +23,13 @@ function soma ()
     let num3 = parseFloat(num1) + parseFloat(num2);
     document.getElementById( "resultado1" ).innerHTML = num3;
 }
+
+document.getElementById( "bnt-dividir" ).addEventListener( "click" , dividi );
+
+function dividi ()
+{
+    let num3 = document.getElementById( "num3" ).value;
+    let num4 = document.getElementById( "num4" ).value;
+    let num5 = parseFloat(num3) + parseFloat(num4);
+    document.getElementById( "resultado1" ).innerHTML = num5;
+}
